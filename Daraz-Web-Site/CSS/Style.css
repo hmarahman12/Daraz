@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.logo-background {
+    width: 1450px;
+    margin: -8px auto;
+    text-align: center;
+}
+.min-menu {
+    background: #ddd;
+}
+.min-menu ul {
+    width: 1195px;
+    margin: 5px auto;
+    text-align: right;
+}
+ul li,a {
+    display: inline-block;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 6px;
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+}
+ul li a:hover {
+    color: #ec420ef2;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+/*********surch bur********/
+.serch-logo {
+    display: inline-block;
+    float: left;
+}
+.serch-wrapper {
+    width: 1195px;
+    margin: auto;
+    height: 70px;
+}
+.serch-logo img {
+    width: 210px;
+}
+.serch-logo input {
+    width: 500px;
+    padding: 10px 50px;
+    font-size: 22px;
+    outline: none;
+    border: 0px solid #ddd;
+    margin: 17px 0 0 50px;
+    background: #ddd;
+}
+i.fas.fa-search:hover,i.fas.fa-shopping-cart:hover,.serch-logo.\32:hover,.serch-logo img:hover,.serch-logo:hover{
+    color: rgb(194, 189, 189);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+i.fas.fa-search {
+    background: #f47318;
+    width: 23px;
+    height: 24px;
+    font-size: 22px;
+    color: #838282;
+    padding: 11px;
+    position: absolute;
+    margin: 17px -49px;
+}
+i.fas.fa-shopping-cart {
+    font-size: 26px;
+    margin: 21px;
+    color: #5e5e5e;
+}
+.serch-logo.\32 {
+    float: right;
+    margin: 12px 0;
+}
+
+/*******background**********/
+
+.bg-wrapper {
+    width: 1195px;
+    margin: 10px auto;
+}
+.hover-menu {
+    width: 250px;
+    height: 430px;
+    /* border: 1px solid #ddd; */
+    float: left;
+}
+.hover-menu ul {
+    margin-top: 15px;
+}
+.hover-menu ul li {
+    font-size: 15px;
+    display: block;
+    /* margin-top: 4px; */
+    margin-left: 0px;
+    padding: 5px 0 12px 17px;
+    font-family: sans-serif;
+}
+.hover-menu ul li:hover{
+    color: rgb(8, 104, 168);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: #ddd;
+}
+
+.hover-menu ul li:hover i#hover-men {
+    color: rgb(8, 104, 168);
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+    margin-top: -16px;
+}
+i#hover-men {
+    text-align: right;
+    display: block;
+    margin-top: -21px;
+    margin-right: 20px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hover-menu ul li ul {
+    position: absolute;
+    width: 225px;
+    height: 430px;
+    margin: 0px 230px;
+    border: 1px solid #ddd;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hover-menu ul li ul li:hover i#hover2-men{
+    opacity: 1;
+    visibility: visible;
+}
+i#hover2-men {
+    display: block;
+    text-align: right;
+    margin: -19px 31px 14px 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+.hover-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s ease;
+}
+.banner img {
+    float: right;
+    width: 800px;
+    display: inline-block;
+}
+
+
+/******drop********/
+ul#drop-1 {
+    margin-top: -22px;
+}
+ul#drop-2 {
+    margin-top: -45px;
+}
+ul#drop-3 {
+    margin-top: -70px;
+}
+ul#drop-4 {
+    margin-top: -95px;
+}
+ul#drop-5 {
+    margin-top: -120px;
+}
+ul#drop-6 {
+    margin-top: -145px;
+}
+ul#drop-7 {
+    margin-top: -170px;
+}
+ul#drop-8 {
+    margin-top: -195px;
+}
+ul#drop-9 {
+    margin-top: -220px;
+}
+ul#drop-10 {
+    margin-top: -245px;
+}
+ul#drop-11 {
+    margin-top: -270px;
+}
+ul#drop-12 {
+    margin-top: -295px;
+}
